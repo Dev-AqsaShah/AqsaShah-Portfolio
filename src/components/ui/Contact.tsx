@@ -1,23 +1,23 @@
-import React from 'react'
+import React from "react"
 import { Card, CardContent, CardHeader, CardTitle} from "@/components/ui/card";
 
 
 const Contact = () => {
   return (
-    <Card data-aos="zoom-in" className='  bg-blue-950 h-[85vh] overflow-y-auto'>
+    <Card data-aos="zoom-in" className=" bg-blue-950 h-[85vh] overflow-y-auto">
 <CardHeader>
-      <CardTitle className='text-2xl font-semibold tracking-tight uppercase text-white'>
+      <CardTitle className="text-2xl font-semibold tracking-tight uppercase text-white">
         Contact
       </CardTitle>
       </CardHeader>
-      <CardContent className='space-y-2'>
+      <CardContent className="space-y-2">
       <div className="container px-5  mx-auto mt-4">
     <div className="flex flex-col text-center w-full mb-12">
       <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
         Contact Me
       </h1>
       <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-white">
-      Get in touch with me for any inquiries, feedback, or support. I'm here to assist you and respond to your queries promptly.
+      Get in touch with me for any inquiries, feedback, or support. Iam here to assist you and respond to your queries promptly.
       </p>
     </div>
     <div className="lg:w-1/2 md:w-2/3 mx-auto">
