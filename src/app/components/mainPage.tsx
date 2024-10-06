@@ -5,9 +5,6 @@ import AOS from "aos";
 import "aos/dist/aos.css"
 import {Sidebar} from "./sidebar";
 import {Details} from "./Details";
-import Card from "./mobComponents/Card"
-import Education from "@/components/ui/Education";
-import Skills from "@/components/ui/Skills";
 import MobileCard from "./mobComponents/Card";
 import MobileEducation from "./mobComponents/Education";
 import MobileSkills from "./mobComponents/Skills";
