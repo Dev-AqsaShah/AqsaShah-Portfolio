@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react"
 
 function MobileEducation() {
   return (
-    <div className='bg-blue-950 w-full p-5'>
+    <div className="bg-blue-950 w-full p-5">
 
 <h4 className="scroll-m-20 border-b border-white pb-2 text-xl font-semibold tracking-tight text-white">
       EDUCATION
@@ -22,7 +22,7 @@ function MobileEducation() {
                 Presidential Initiative for Artificial Intelligence and Computing (PIAIC)
             </h2>
             <p className="leading-relaxed ">
-            I'm currently pursuing the Cloud Native Applied Generative AI Engineering course at PIAIC! With a strong focus on cutting-edge technologies like AI, Python, Docker and so on.
+            Iam currently pursuing the Cloud Native Applied Generative AI Engineering course at PIAIC! With a strong focus on cutting-edge technologies like AI, Python, Docker and so on.
             </p>
           </div>
         </div>
@@ -41,10 +41,10 @@ function MobileEducation() {
           </div>
           <div className="md:flex-grow ">
             <h2 className="text-xl font-medium text-white title-font mb-2 uppercase">
-                Governor's Initiative for Artificial Intelligence and Computing (GIAIC)
+                Governors Initiative for Artificial Intelligence and Computing (GIAIC)
             </h2>
             <p className="leading-relaxed ">
-            I'm  enrolled in the Certified Cloud Applied Generative AI Eng and Metaverse course at GIAIC. In this program, I’m honing my skills in HTML, CSS, TS, npm, Node.js, Next.js, and so on.
+            Iam  enrolled in the Certified Cloud Applied Generative AI Eng and Metaverse course at GIAIC. In this program, Iam honing my skills in HTML, CSS, TS, npm, Node.js, Next.js, and so on.
             </p>
           </div>
         </div>
