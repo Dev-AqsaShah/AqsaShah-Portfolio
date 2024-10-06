@@ -29,7 +29,7 @@ export function Sidebar() {
         <div className=" grid grid-cols-3 gap-2">
 {/* linkedin */}
             <div className="mt-4"> 
-                <Link href="https://www.linkedin.com/feed/" target="_blank" className=" text-white hover:text-blue-800">
+                <Link href="https://www.linkedin.com/in/aqsa-shah-?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" className=" text-white hover:text-blue-800">
             <FaLinkedin className="text-4xl" />
                 </Link>
             </div>
