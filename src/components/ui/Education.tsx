@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 import {
     Card,
     CardContent,
@@ -8,9 +8,9 @@ import {
 
 const Education = () => {
   return (
-    <Card data-aos="zoom-in" className='h-[85vh] overflow-y-auto bg-blue-950'>
+    <Card data-aos="zoom-in" className="h-[85vh] overflow-y-auto bg-blue-950">
           <CardHeader>
-            <CardTitle className=' text-2xl font-semibold tracking-tight uppercase text-white'>Education</CardTitle>
+            <CardTitle className=" text-2xl font-semibold tracking-tight uppercase text-white">Education</CardTitle>
           
           </CardHeader>
           <CardContent className="space-y-2">
@@ -29,7 +29,7 @@ const Education = () => {
                 Presidential Initiative for Artificial Intelligence and Computing (PIAIC)
             </h2>
             <p className="leading-relaxed ">
-            I'm currently pursuing the Cloud Native Applied Generative AI Engineering course at PIAIC! With a strong focus on cutting-edge technologies like AI, Python, Docker, Google Colab, and Linux, this journey is all about mastering the tools and techniques shaping the future of cloud-native AI applications.
+            Iam currently pursuing the Cloud Native Applied Generative AI Engineering course at PIAIC! With a strong focus on cutting-edge technologies like AI, Python, Docker, Google Colab, and Linux, this journey is all about mastering the tools and techniques shaping the future of cloud-native AI applications.
             </p>
           </div>
         </div>
@@ -48,10 +48,10 @@ const Education = () => {
           </div>
           <div className="md:flex-grow ">
             <h2 className="text-xl font-medium text-white title-font mb-2 uppercase">
-                Governor's Initiative for Artificial Intelligence and Computing (GIAIC)
+                Governors Initiative for Artificial Intelligence and Computing (GIAIC)
             </h2>
             <p className="leading-relaxed ">
-            I'm currently enrolled in the Certified Cloud Applied Generative AI Engineering and Metaverse course at GIAIC. In this dynamic program, I’m honing my skills in HTML, CSS, TypeScript, npm, Node.js, Next.js, and Tailwind CSS. This journey is all about understanding the intricacies of cloud technologies and their applications in the exciting world of the metaverse.
+            Iam currently enrolled in the Certified Cloud Applied Generative AI Engineering and Metaverse course at GIAIC. In this dynamic program, I am honing my skills in HTML, CSS, TypeScript, npm, Node.js, Next.js, and Tailwind CSS. This journey is all about understanding the intricacies of cloud technologies and their applications in the exciting world of the metaverse.
             </p>
           </div>
         </div>
