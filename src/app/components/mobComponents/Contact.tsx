@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react"
 
 function MobileContact() {
   return (
-    <div className='w-full p-5 bg-blue-950'> 
+    <div className="w-full p-5 bg-blue-950"> 
       <h4 className="scroll-m-20 border-b border-white pb-2 text-xl font-semibold tracking-tight text-white">
       CONTACT
     </h4>
@@ -14,7 +14,7 @@ function MobileContact() {
         Contact Me
       </h1>
       <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-      Get in touch with me for any inquiries, feedback, or support. I'm here to assist you and respond to your queries promptly.
+      Get in touch with me for any inquiries, feedback, or support. Iam here to assist you and respond to your queries promptly.
       </p>
     </div>
     <div className="lg:w-1/2 md:w-2/3 mx-auto">
