@@ -2,7 +2,7 @@ import React from 'react'
 
 function MobileContact() {
   return (
-    <div className=' w-full p-5 bg-blue-950'> 
+    <div className='w-full p-5 bg-blue-950'> 
       <h4 className="scroll-m-20 border-b border-white pb-2 text-xl font-semibold tracking-tight text-white">
       CONTACT
     </h4>
@@ -18,7 +18,7 @@ function MobileContact() {
       </p>
     </div>
     <div className="lg:w-1/2 md:w-2/3 mx-auto">
-      <div className="flex flex-wrap -m-2">
+      <div className="flex flex-wrap m-2">
         <div className="p-2 w-1/2">
           <div className="relative">
             <label htmlFor="name" className="leading-7 text-sm text-white">
@@ -36,7 +36,8 @@ function MobileContact() {
           <div className="relative">
             <label htmlFor="email" className="leading-7 text-sm text-white">
               Email
-            </label>
+            </label>,
+            
             <input
               type="email"
               id="email"
