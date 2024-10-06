@@ -1,9 +1,9 @@
-import Link from 'next/link'
-import React from 'react'
+import Link from "next/link"
+import React from "react"
 
 function MobileProject() {
   return (
-    <div className='w-full p-5 bg-blue-950'>
+    <div className="w-full p-5 bg-blue-950">
       <h4 className="scroll-m-20 border-b border-white pb-2 text-xl font-semibold tracking-tight text-white">
       PROJECTS
     </h4>
@@ -184,7 +184,7 @@ function MobileProject() {
   </h2>
   <div className="md:w-3/5 md:pl-6">
     <p className="leading-relaxed text-white">
-    Built a variety of Python-based projects focusing on automation, data processing, and user interaction. These projects demonstrate a deep understanding of Python's versatility and practical applications.
+    Built a variety of Python-based projects focusing on automation, data processing, and user interaction. These projects demonstrate a deep understanding of Pythons versatility and practical applications.
     </p>
     <div className="flex md:mt-4 mt-6">
       <Link href=" https://github.com/Dev-AqsaShah/Python-Projects.git " target="_blank">
@@ -205,7 +205,7 @@ function MobileProject() {
   </h2>
   <div className="md:w-3/5 md:pl-6">
     <p className="leading-relaxed text-white">
-    I've developed 14 projects using TypeScript, showcasing a range of functionalities from web applications to utilities. All of these projects are published on npm, and you can explore them through the following link
+    I have developed 14 projects using TypeScript, showcasing a range of functionalities from web applications to utilities. All of these projects are published on npm, and you can explore them through the following link
     </p>
     <div className="flex md:mt-4 mt-6">
       <Link href="https://github.com/Dev-AqsaShah/TypeScript-mini-Projects.git " target="_blank">
