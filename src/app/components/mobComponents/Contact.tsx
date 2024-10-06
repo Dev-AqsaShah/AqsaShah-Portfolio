@@ -36,7 +36,7 @@ function MobileContact() {
           <div className="relative">
             <label htmlFor="email" className="leading-7 text-sm text-white">
               Email
-            </label>,
+            </label>
             
             <input
               type="email"
