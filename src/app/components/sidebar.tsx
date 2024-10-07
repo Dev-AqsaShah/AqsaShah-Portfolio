@@ -51,7 +51,7 @@ export function Sidebar() {
         {/* cv button */}
         <Link href={"/assets/resume.pdf"} className="mt-4" target="_blank">
         <Button className="bg-white text-black mt-3 h-8 w-28 hover:bg-blue-900  ">
-            <FaCloudDownloadAlt className="mr-2 h-4 w-4 text-black " /> RESUME
+            <FaCloudDownloadAlt className="mr-2 h-4 w-4  " /> RESUME
         </Button>
         </Link>
     </div>
