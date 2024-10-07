@@ -50,7 +50,7 @@ function MobileSkills() {
  <div className="p-4 w-full md:w-1/3 ">
    <div className="flex items-center mb-3">
      <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-white text-white flex-shrink-0">
-   < SiTypescript className="text-blue-900 text-lg"/>
+   < SiTypescript className="text-blue-900 bg-white text-lg"/>
      </div>
      <h2 className="text-white text-lg font-semibold tracking-tight">
        TYPESCRIPT
@@ -67,7 +67,7 @@ function MobileSkills() {
  <div className="p-4 w-full md:w-1/3 ">
    <div className="flex items-center mb-3">
      <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-white text-white flex-shrink-0">
-   < FaReact className="text-blue-900 text-2xl"/>
+   < FaReact className="text-blue-900 bg-white text-2xl"/>
      </div>
      <h2 className="text-white text-lg font-semibold tracking-tight">
        REACT
@@ -84,7 +84,7 @@ function MobileSkills() {
  <div className="p-4 w-full md:w-1/3 ">
    <div className="flex items-center mb-3">
      <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-white text-white flex-shrink-0">
-   < RiNextjsFill className="text-blue-900 text-2xl"/>
+   < RiNextjsFill className="text-blue-900 bg-white text-2xl"/>
      </div>
      <h2 className="text-white text-lg font-semibold tracking-tight">
        NEXT.JS
@@ -101,7 +101,7 @@ function MobileSkills() {
   <div className="p-4 w-full md:w-1/3 ">
    <div className="flex items-center mb-3">
      <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-white text-white flex-shrink-0">
-   < RiNextjsFill className="text-blue-900 text-2xl"/>
+   < RiNextjsFill className="text-blue-900 bg-white text-2xl"/>
      </div>
      <h2 className="text-white text-lg font-semibold tracking-tight">
        NODE.JS
@@ -118,7 +118,7 @@ function MobileSkills() {
  <div className="p-4 w-full md:w-1/3 ">
    <div className="flex items-center mb-3">
      <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-white text-white flex-shrink-0">
-   < RiTailwindCssFill className="text-blue-900 text-2xl"/>
+   < RiTailwindCssFill className="text-blue-900 bg-white text-2xl"/>
      </div>
      <h2 className="text-white text-lg font-semibold tracking-tight">
        TAILWIND
@@ -135,7 +135,7 @@ function MobileSkills() {
  <div className="p-4 w-full md:w-1/3 ">
    <div className="flex items-center mb-3">
      <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-white text-white flex-shrink-0">
-   < RiTailwindCssFill className="text-blue-900 text-2xl"/>
+   < RiTailwindCssFill className="text-blue-900 bg-white text-2xl"/>
      </div>
      <h2 className="text-white  font-semibold tracking-tight">
        T-BLOCK
@@ -152,7 +152,7 @@ function MobileSkills() {
  <div className="p-4 w-full md:w-1/3 ">
    <div className="flex items-center mb-3">
      <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-white text-white flex-shrink-0">
-   < FaFigma className="text-blue-900 text-lg"/>
+   < FaFigma className="text-blue-900 bg-white text-lg"/>
      </div>
      <h2 className="text-white  font-semibold tracking-tight">
        FIGMA(UI/UX)
@@ -169,7 +169,7 @@ function MobileSkills() {
  <div className="p-4 w-full md:w-1/3 ">
    <div className="flex items-center mb-3">
      <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-white text-white flex-shrink-0">
-   < FaBootstrap className="text-blue-900 text-xl"/>
+   < FaBootstrap className="text-blue-900 bg-white text-xl"/>
      </div>
      <h2 className="text-white text-lg font-semibold tracking-tight">
        BOOTSTRAP
@@ -186,7 +186,7 @@ function MobileSkills() {
  <div className="p-4 w-full md:w-1/3 ">
    <div className="flex items-center mb-3">
      <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-white text-white flex-shrink-0">
-   < SiShadcnui className="text-blue-900 text-lg"/>
+   < SiShadcnui className="text-blue-900 bg-white text-lg"/>
      </div>
      <h2 className="text-white font-semibold tracking-tight">
        SHADCN 
@@ -203,7 +203,7 @@ function MobileSkills() {
  <div className="p-4 w-full md:w-1/3 ">
    <div className="flex items-center mb-3">
      <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-white text-white flex-shrink-0">
-   < FaNpm className="text-blue-900 text-3xl"/>
+   < FaNpm className="text-blue-900 bg-white text-3xl"/>
      </div>
      <h2 className="text-white text-lg font-semibold tracking-tight">
        NPM
@@ -220,7 +220,7 @@ function MobileSkills() {
  <div className="p-4 w-full md:w-1/3 ">
    <div className="flex items-center mb-3">
      <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-white text-white flex-shrink-0">
-   < FaPython className="text-blue-900 text-2xl"/>
+   < FaPython className="text-blue-900 bg-white text-2xl"/>
      </div>
      <h2 className="text-white text-lg font-semibold tracking-tight">
        PYTHON
@@ -237,7 +237,7 @@ function MobileSkills() {
  <div className="p-4 w-full md:w-1/3 ">
    <div className="flex items-center mb-3">
      <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-white text-white flex-shrink-0">
-   < AiOutlineOpenAI className="text-blue-900 text-3xl"/>
+   < AiOutlineOpenAI className="text-blue-900 bg-white text-3xl"/>
      </div>
      <h2 className="text-white text-lg font-semibold tracking-tight">
        Prompt.Eng (GPT-3/4)
@@ -254,7 +254,7 @@ function MobileSkills() {
  <div className="p-4 w-full md:w-1/3 ">
    <div className="flex items-center mb-3">
      <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-white text-white flex-shrink-0">
-   < SiGooglecolab className="text-blue-900 text-2xl"/>
+   < SiGooglecolab className="text-blue-900 bg-white text-2xl"/>
      </div>
      <h2 className="text-white text-lg font-semibold tracking-tight">
        G_COLAB
@@ -271,7 +271,7 @@ function MobileSkills() {
  <div className="p-4 w-full md:w-1/3 ">
    <div className="flex items-center mb-3">
      <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-white text-white flex-shrink-0">
-   < SiJupyter className="text-blue-900 text-2xl"/>
+   < SiJupyter className="text-blue-900 bg-white text-2xl"/>
      </div>
      <h2 className="text-white text-lg font-semibold tracking-tight">
        JUPYTER NOTEBOOK
@@ -288,7 +288,7 @@ function MobileSkills() {
  <div className="p-4 w-full md:w-1/3 ">
    <div className="flex items-center mb-3">
      <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-white text-white flex-shrink-0">
-   < FaDocker className="text-blue-900 text-2xl"/>
+   < FaDocker className="text-blue-900 bg-white text-2xl"/>
      </div>
      <h2 className="text-white text-lg font-semibold tracking-tight">
        DOCKER
@@ -305,7 +305,7 @@ function MobileSkills() {
  <div className="p-4 w-full md:w-1/3 ">
    <div className="flex items-center mb-3">
      <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-white text-white flex-shrink-0">
-   < FaLinux className="text-blue-900 text-3xl"/>
+   < FaLinux className="text-blue-900 bg-white text-3xl"/>
      </div>
      <h2 className="text-white text-lg font-semibold tracking-tight">
        UBUNTU
@@ -322,7 +322,7 @@ function MobileSkills() {
  <div className="p-4 w-full md:w-1/3 ">
    <div className="flex items-center mb-3">
      <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-white text-white flex-shrink-0">
-   < FaGithub className="text-blue-900 text-2xl"/>
+   < FaGithub className="text-blue-900 bg-white text-2xl"/>
      </div>
      <h2 className="text-white text-lg font-semibold tracking-tight">
        GIT/GITHUB
@@ -339,7 +339,7 @@ function MobileSkills() {
  <div className="p-4 w-full md:w-1/3 ">
    <div className="flex items-center mb-3">
      <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-white text-white flex-shrink-0">
-   <FaGithub  className="text-blue-900 text-2xl"/>
+   <FaGithub  className="text-blue-900 bg-white text-2xl"/>
      </div>
      <h2 className="text-white text-lg font-semibold tracking-tight">
        GITHUB DESKTOP
