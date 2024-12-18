@@ -79,6 +79,27 @@ const Projects = () => {
     </div>
 
 
+
+  {/* milestone-4 blog website */}
+  <div className=" container  py-5 mx-auto flex flex-wrap ">
+      <h2 className="sm:text-3xl text-2xl text-white font-medium title-font mb-2 md:w-2/5 uppercase">
+        e-commerce website
+      </h2>
+      <div className="md:w-3/5 md:pl-6">
+        <p className="leading-relaxed text-white">
+        I created a e-commerce website using Next.js with  allowing for content management and seamless user experience.
+        </p>
+        <div className="flex md:mt-4 mt-6">
+          <Link href=" https://milestone-ecommerceweb.vercel.app/" target="_blank">
+          <button className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded">
+            View Live
+          </button>
+          </Link>
+       
+        </div>
+      </div>
+    </div>
+
     {/* amazon clone */}
     <div className=" container  py-5 mx-auto flex flex-wrap ">
       <h2 className="sm:text-3xl text-2xl text-white font-medium title-font mb-2 md:w-2/5 uppercase">
