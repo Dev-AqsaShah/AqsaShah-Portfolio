@@ -9,6 +9,84 @@ function MobileProject() {
     </h4>
 
 
+{/* Admin dashboard */}
+<div className=" container  py-5 mx-auto flex flex-wrap ">
+  <h2 className="sm:text-3xl text-2xl text-white font-medium title-font mb-2 md:w-2/5 uppercase">
+    Admin Dashboard
+  </h2>
+  <div className="md:w-3/5 md:pl-6">
+    <p className="leading-relaxed text-white">
+    Admin Dashboard Access:
+            Use the following credentials to log in to the eCommerce admin dashboard:
+            Email: example@gmail.com
+            Password: admin123 
+    </p>
+    <div className="flex md:mt-4 mt-6">
+      <Link href="https://admin-dashboard-e-commerce-two.vercel.app/ " target="_blank">
+      <button className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded">
+        View Live
+      </button>
+      </Link>
+    </div>
+  </div>
+</div>
+
+{/* ecomrce figma hackathon */}
+<div className=" container  py-5 mx-auto flex flex-wrap ">
+  <h2 className="sm:text-3xl text-2xl text-white font-medium title-font mb-2 md:w-2/5 uppercase">
+    E-commerce Website 
+  </h2>
+  <div className="md:w-3/5 md:pl-6">
+    <p className="leading-relaxed text-white">
+    I designed an e-commerce website layout on Figma, focusing on a user-friendly and visually appealing interface to enhance the shopping experience.
+    </p>
+    <div className="flex md:mt-4 mt-6">
+      <Link href=" https://e-commerce-hackathon-red.vercel.app/?vercelToolbarCode=2v0_lbM0i_SpQqr " target="_blank">
+      <button className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded">
+        View Live
+      </button>
+      </Link>
+    </div>
+  </div>
+</div>
+
+{/* blog website */}
+<div className=" container  py-5 mx-auto flex flex-wrap ">
+  <h2 className="sm:text-3xl text-2xl text-white font-medium title-font mb-2 md:w-2/5 uppercase">
+    Blog Website
+  </h2>
+  <div className="md:w-3/5 md:pl-6">
+    <p className="leading-relaxed text-white">
+    I have built a **blog website** featuring real-story-based blogs, providing readers with engaging and authentic content. The backend is powered by **MongoDB**, ensuring efficient data management and scalability. This platform allows users to explore inspiring stories while maintaining a smooth and responsive experience. My focus was on creating a well-structured and dynamic blogging system.    </p>
+    <div className="flex md:mt-4 mt-6">
+      <Link href=" https://m-4-blog-web.vercel.app/ " target="_blank">
+      <button className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded">
+        View Live
+      </button>
+      </Link>
+    </div>
+  </div>
+</div>
+
+{/* Hackathon resume builder */}
+<div className=" container  py-5 mx-auto flex flex-wrap ">
+  <h2 className="sm:text-3xl text-2xl text-white font-medium title-font mb-2 md:w-2/5 uppercase">
+    Resume Builder
+  </h2>
+  <div className="md:w-3/5 md:pl-6">
+    <p className="leading-relaxed text-white">
+    I created a Resume Builder using Next.js, allowing users to generate professional resumes easily. I have also used it to create my own resume, demonstrating its functionality.
+    </p>
+    <div className="flex md:mt-4 mt-6">
+      <Link href=" https://hackathon-new-xi.vercel.app/ " target="_blank">
+      <button className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded">
+        View Live
+      </button>
+      </Link>
+    </div>
+  </div>
+</div>
+
 {/* amazon clone */}
 <div className=" container  py-5 mx-auto flex flex-wrap ">
   <h2 className="sm:text-3xl text-2xl text-white font-medium title-font mb-2 md:w-2/5 uppercase">
@@ -24,7 +102,6 @@ function MobileProject() {
         View Live
       </button>
       </Link>
-   
     </div>
   </div>
 </div>

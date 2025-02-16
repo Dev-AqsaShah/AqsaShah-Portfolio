@@ -15,6 +15,26 @@ const Education = () => {
           </CardHeader>
           <CardContent className="space-y-2">
 
+
+            {/* bs computer science */}
+      <div className="-my-8 divide-y-2 divide-gray-100 text-white">
+        <div className="py-8 flex flex-wrap md:flex-nowrap">
+          <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span className="font-semibold title-font text-white uppercase">
+              BS Computer Science
+            </span>
+            <span className="mt-1 text-white text-sm">2025-2029</span>
+          </div>
+          <div className="md:flex-grow ">
+            <h2 className="text-xl font-medium text-white title-font mb-2 uppercase">
+                UNIVERSITY OF SINDH JAMSHORO
+            </h2>
+            <p className="leading-relaxed ">
+            I am currently pursuing a Bachelor's degree in Computer Science at the University of Sindh, Jamshoro. My studies focus on programming, software development, and problem-solving. I am passionate about technology and continuously explore new frameworks and tools. Through various projects, I have gained hands-on experience in frontend and backend development. My goal is to apply my knowledge to real-world challenges and grow as a skilled developer.            </p>
+          </div>
+        </div>
+      </div>
+
 {/* piaic */}
 <div className="-my-8 divide-y-2 divide-gray-100 text-white">
         <div className="py-8 flex flex-wrap md:flex-nowrap">
@@ -22,7 +42,7 @@ const Education = () => {
             <span className="font-semibold title-font text-white uppercase">
             Generative AI Engineering
             </span>
-            <span className="mt-1 text-white text-sm">01-Aug-2024</span>
+            <span className="mt-1 text-white text-sm">2024-2026</span>
           </div>
           <div className="md:flex-grow ">
             <h2 className="text-xl font-medium text-white title-font mb-2 uppercase">
@@ -44,7 +64,7 @@ const Education = () => {
             <span className="font-semibold title-font text-white uppercase">
               Web-Development
             </span>
-            <span className="mt-1 text-white text-sm ">01-feb-2024</span>
+            <span className="mt-1 text-white text-sm ">2024-2026</span>
           </div>
           <div className="md:flex-grow ">
             <h2 className="text-xl font-medium text-white title-font mb-2 uppercase">
@@ -56,29 +76,7 @@ const Education = () => {
           </div>
         </div>
       </div>
-
-
-
-{/* bs science */}
-      <div className="-my-8 divide-y-2 divide-gray-100 text-white">
-        <div className="py-8 flex flex-wrap md:flex-nowrap">
-          <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-            <span className="font-semibold title-font text-white uppercase">
-              BS Science
-            </span>
-            <span className="mt-1 text-white text-sm">1 Aug 2023</span>
-          </div>
-          <div className="md:flex-grow ">
-            <h2 className="text-xl font-medium text-white title-font mb-2 uppercase">
-                SHAHEED MOHTARMA BENAZEER BHUTTO UNIVERSITY BENAZIRABAD 
-            </h2>
-            <p className="leading-relaxed ">
-            I am proud to share that I have completed my BS in Science from Shaheed Benazir Bhutto University. This journey has been incredibly enriching, equipping me with a solid foundation in scientific principles and critical thinking skills. As I move forward, I am excited to leverage my education and combine it with my ongoing learning in AI and Cloud Technologies to make meaningful contributions in the tech industry.
-            </p>
-          </div>
-        </div>
-      </div>
-
+      
           </CardContent>
         </Card>
   )
