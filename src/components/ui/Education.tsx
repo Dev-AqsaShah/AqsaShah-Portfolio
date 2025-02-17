@@ -30,7 +30,7 @@ const Education = () => {
                 UNIVERSITY OF SINDH JAMSHORO
             </h2>
             <p className="leading-relaxed ">
-            I am currently pursuing a Bachelor's degree in Computer Science at the University of Sindh, Jamshoro. My studies focus on programming, software development, and problem-solving. I am passionate about technology and continuously explore new frameworks and tools. Through various projects, I have gained hands-on experience in frontend and backend development. My goal is to apply my knowledge to real-world challenges and grow as a skilled developer.            </p>
+            I am currently pursuing a Bachelor degree in Computer Science at the University of Sindh, Jamshoro. My studies focus on programming, software development, and problem-solving. I am passionate about technology and continuously explore new frameworks and tools. Through various projects, I have gained hands-on experience in frontend and backend development. My goal is to apply my knowledge to real-world challenges and grow as a skilled developer.            </p>
           </div>
         </div>
       </div>
