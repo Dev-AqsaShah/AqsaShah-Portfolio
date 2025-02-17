@@ -14,6 +14,7 @@
     "aos": "^2.3.4",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "framer-motion": "^12.4.3",
     "lucide-react": "^0.447.0",
     "next": "14.2.14",
     "react": "^18",
