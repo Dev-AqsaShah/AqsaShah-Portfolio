@@ -1,131 +1,200 @@
-import Link from "next/link"
-import React from "react"
+import Link from "next/link";
+import React, { useState } from "react";
 
 function MobileProject() {
+  const [showBlogDetails, setShowBlogDetails] = useState(false);
+  const [showResumeDetails, setShowResumeDetails] = useState(false);
+  const [showAdminDetails, setShowAdminDetails] = useState(false);
+  const [showEcommerceDetails, setShowEcommerceDetails] = useState(false);
+  const [showAmazonCloneDetails, setShowAmazonCloneDetails] = useState(false);
+  const [showFaceBookDetails, setShowFaceBookDetails] = useState(false);
+
+  // Corrected toggle functions
+  const toggleBlogDetails = () => setShowBlogDetails((prev) => !prev);
+  const toggleResumeDetails = () => setShowResumeDetails((prev) => !prev);
+  const toggleAdminDetails = () => setShowAdminDetails((prev) => !prev);
+  const toggleEcommerceDetails = () => setShowEcommerceDetails((prev) => !prev);
+  const toggleAmazonCloneDetails = () => setShowAmazonCloneDetails((prev) => !prev);
+  const toggleFaceBookDetails = () => setShowFaceBookDetails((prev) => !prev);
+
+
   return (
     <div className="w-full p-5 bg-blue-950">
-      <h4 className="scroll-m-20 border-b border-white pb-2 text-xl font-semibold tracking-tight text-white">
-      PROJECTS
-    </h4>
+      <h4 className="scroll-m-20 border-b border-white pb-2 text-xl text-center font-semibold tracking-tight text-white">
+        PROJECTS
+      </h4>
+
+      {/* Admin dashboard */}
+      <div className="container py-5 mx-auto flex flex-wrap">
+        <h2 className="sm:text-3xl text-2xl text-white font-medium title-font mb-2 md:w-2/5 uppercase">
+          Admin Dashboard
+        </h2>
+        <div className="md:w-3/5 md:pl-6">
+          {showAdminDetails && (
+            <p className="leading-relaxed text-white">
+              Admin Dashboard Access:<br />
+              Use the following credentials to log in to the eCommerce admin dashboard:<br />
+              <strong>Email:</strong> example@gmail.com<br />
+              <strong>Password:</strong> admin123
+            </p>
+          )}
+          <div className="flex md:mt-4 mt-6 gap-4">
+            <Link href="https://admin-dashboard-e-commerce-two.vercel.app/" target="_blank">
+              <button className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded">
+                View Live
+              </button>
+            </Link>
+            <button
+              onClick={toggleAdminDetails}
+              className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded"
+            >
+              {showAdminDetails ? "Hide Details" : "Details"}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* E-commerce Figma Hackathon */}
+      <div className="container py-5 mx-auto flex flex-wrap">
+        <h2 className="sm:text-3xl text-2xl text-white font-medium title-font mb-2 md:w-2/5 uppercase">
+          E-commerce Website
+        </h2>
+        <div className="md:w-3/5 md:pl-6">
+          {showEcommerceDetails && (
+            <p className="leading-relaxed text-white">
+              I designed an e-commerce website layout on Figma, focusing on a user-friendly and visually appealing interface to enhance the shopping experience.
+            </p>
+          )}
+          <div className="flex md:mt-4 mt-6 gap-4">
+            <Link href="https://e-commerce-hackathon-red.vercel.app/?vercelToolbarCode=2v0_lbM0i_SpQqr" target="_blank">
+              <button className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded">
+                View Live
+              </button>
+            </Link>
+            <button
+              onClick={toggleEcommerceDetails}
+              className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded"
+            >
+              {showEcommerceDetails ? "Hide Details" : "Details"}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Blog website */}
+      <div className="container py-5 mx-auto flex flex-wrap">
+        <h2 className="sm:text-3xl text-2xl text-white font-medium title-font mb-2 md:w-2/5 uppercase">
+          Blog Website
+        </h2>
+        <div className="md:w-3/5 md:pl-6">
+          {showBlogDetails && (
+            <p className="leading-relaxed text-white">
+              I have built a blog website featuring real-story-based blogs, providing readers with engaging and authentic content. The backend is powered by MongoDB, ensuring efficient data management and scalability. This platform allows users to explore inspiring stories while maintaining a smooth and responsive experience. My focus was on creating a well-structured and dynamic blogging system.
+            </p>
+          )}
+          <div className="flex md:mt-4 mt-6 gap-4">
+            <Link href="https://m-4-blog-web.vercel.app/" target="_blank">
+              <button className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded">
+                View Live
+              </button>
+            </Link>
+            <button
+              onClick={toggleBlogDetails}
+              className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded"
+            >
+              {showBlogDetails ? "Hide Details" : "Details"}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Resume Builder */}
+      <div className="container py-5 mx-auto flex flex-wrap">
+        <h2 className="sm:text-3xl text-2xl text-white font-medium title-font mb-2 md:w-2/5 uppercase">
+          Resume Builder
+        </h2>
+        <div className="md:w-3/5 md:pl-6">
+          {showResumeDetails && (
+            <p className="leading-relaxed text-white">
+              I created a Resume Builder using Next.js, allowing users to generate professional resumes easily. I have also used it to create my own resume, demonstrating its functionality.
+            </p>
+          )}
+          <div className="flex md:mt-4 mt-6 gap-4">
+            <Link href="https://hackathon-new-xi.vercel.app/" target="_blank">
+              <button className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded">
+                View Live
+              </button>
+            </Link>
+            <button
+              onClick={toggleResumeDetails}
+              className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded"
+            >
+              {showResumeDetails ? "Hide Details" : "Details"}
+            </button>
+          </div>
+        </div>
+      </div>
+ 
 
 
-{/* Admin dashboard */}
-<div className=" container  py-5 mx-auto flex flex-wrap ">
+
+{/* Amazon Clone */}
+<div className="container py-5 mx-auto flex flex-wrap">
   <h2 className="sm:text-3xl text-2xl text-white font-medium title-font mb-2 md:w-2/5 uppercase">
-    Admin Dashboard
+    Amazon Clone
   </h2>
-  <div className="md:w-3/5 md:pl-6">
-    <p className="leading-relaxed text-white">
-    Admin Dashboard Access:
-            Use the following credentials to log in to the eCommerce admin dashboard:
-            Email: example@gmail.com
-            Password: admin123 
+  <div className="md:w-3/5 md:pl-6"> {
+    showAmazonCloneDetails && (
+      <p className="leading-relaxed text-white">
+      I created an Amazon clone that replicates the core layout and functionality of the website, including key features like product listings, search, and a responsive design for a seamless user experience.
     </p>
-    <div className="flex md:mt-4 mt-6">
-      <Link href="https://admin-dashboard-e-commerce-two.vercel.app/ " target="_blank">
-      <button className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded">
-        View Live
-      </button>
-      </Link>
-    </div>
-  </div>
-</div>
-
-{/* ecomrce figma hackathon */}
-<div className=" container  py-5 mx-auto flex flex-wrap ">
-  <h2 className="sm:text-3xl text-2xl text-white font-medium title-font mb-2 md:w-2/5 uppercase">
-    E-commerce Website 
-  </h2>
-  <div className="md:w-3/5 md:pl-6">
-    <p className="leading-relaxed text-white">
-    I designed an e-commerce website layout on Figma, focusing on a user-friendly and visually appealing interface to enhance the shopping experience.
-    </p>
-    <div className="flex md:mt-4 mt-6">
-      <Link href=" https://e-commerce-hackathon-red.vercel.app/?vercelToolbarCode=2v0_lbM0i_SpQqr " target="_blank">
-      <button className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded">
-        View Live
-      </button>
-      </Link>
-    </div>
-  </div>
-</div>
-
-{/* blog website */}
-<div className=" container  py-5 mx-auto flex flex-wrap ">
-  <h2 className="sm:text-3xl text-2xl text-white font-medium title-font mb-2 md:w-2/5 uppercase">
-    Blog Website
-  </h2>
-  <div className="md:w-3/5 md:pl-6">
-    <p className="leading-relaxed text-white">
-    I have built a **blog website** featuring real-story-based blogs, providing readers with engaging and authentic content. The backend is powered by **MongoDB**, ensuring efficient data management and scalability. This platform allows users to explore inspiring stories while maintaining a smooth and responsive experience. My focus was on creating a well-structured and dynamic blogging system.    </p>
-    <div className="flex md:mt-4 mt-6">
-      <Link href=" https://m-4-blog-web.vercel.app/ " target="_blank">
-      <button className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded">
-        View Live
-      </button>
-      </Link>
-    </div>
-  </div>
-</div>
-
-{/* Hackathon resume builder */}
-<div className=" container  py-5 mx-auto flex flex-wrap ">
-  <h2 className="sm:text-3xl text-2xl text-white font-medium title-font mb-2 md:w-2/5 uppercase">
-    Resume Builder
-  </h2>
-  <div className="md:w-3/5 md:pl-6">
-    <p className="leading-relaxed text-white">
-    I created a Resume Builder using Next.js, allowing users to generate professional resumes easily. I have also used it to create my own resume, demonstrating its functionality.
-    </p>
-    <div className="flex md:mt-4 mt-6">
-      <Link href=" https://hackathon-new-xi.vercel.app/ " target="_blank">
-      <button className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded">
-        View Live
-      </button>
-      </Link>
-    </div>
-  </div>
-</div>
-
-{/* amazon clone */}
-<div className=" container  py-5 mx-auto flex flex-wrap ">
-  <h2 className="sm:text-3xl text-2xl text-white font-medium title-font mb-2 md:w-2/5 uppercase">
-    amazon clone
-  </h2>
-  <div className="md:w-3/5 md:pl-6">
-    <p className="leading-relaxed text-white">
-    I created an Amazon clone that replicates the core layout and functionality of the website, including key features like product listings, search, and a responsive design for a seamless user experience.
-    </p>
-    <div className="flex md:mt-4 mt-6">
-      <Link href=" https://web-clone-coral.vercel.app/ " target="_blank">
-      <button className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded">
-        View Live
-      </button>
-      </Link>
-    </div>
-  </div>
-</div>
-
-
-{/*  facebook login page clone */}
-<div className="container  py-10 mx-auto flex flex-wrap ">
-  <h2 className="sm:text-3xl text-2xl text-white font-medium title-font mb-2 md:w-2/5 uppercase">
-    facebook clone
-  </h2>
-  <div className="md:w-3/5 md:pl-6">
-    <p className="leading-relaxed text-white">
-    I developed a Facebook login page clone using Next.js and Tailwind CSS, ensuring a seamless, responsive design with modern web technologies for an optimal user experience.
-    </p>
-    <div className="flex md:mt-4 mt-6">
-      <Link href=" https://next-js-projects-lemon.vercel.app/ " target="_blank">
-      <button className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded">
-        View Live
-      </button>
-      </Link>
+    )
+  }
    
+    <div className="flex md:mt-4 mt-6 gap-4">
+      <Link href="https://web-clone-coral.vercel.app/" target="_blank">
+        <button className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded">
+          View Live
+        </button>
+      </Link>
+      <button
+        onClick={toggleAmazonCloneDetails} // Toggle function for Amazon clone
+        className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded"
+      >
+        {showAmazonCloneDetails ? "Hide Details" : "Details"}
+      </button>
     </div>
   </div>
 </div>
+
+{/* Facebook Login Page Clone */}
+<div className="container py-10 mx-auto flex flex-wrap">
+  <h2 className="sm:text-3xl text-2xl text-white font-medium title-font mb-2 md:w-2/5 uppercase">
+    Facebook Clone
+  </h2>
+  <div className="md:w-3/5 md:pl-6"> {
+    showFaceBookDetails && (
+      <p className="leading-relaxed text-white">
+      I developed a Facebook login page clone using Next.js and Tailwind CSS, ensuring a seamless, responsive design with modern web technologies for an optimal user experience.
+    </p>
+    )
+  }
+    <div className="flex md:mt-4 mt-6 gap-4">
+      <Link href="https://next-js-projects-lemon.vercel.app/" target="_blank">
+        <button className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded">
+          View Live
+        </button>
+      </Link>
+      <button
+        onClick={toggleFaceBookDetails} 
+        className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded"
+      >
+        {showFaceBookDetails ? "Hide Details" : "Details"}
+      </button>
+    </div>
+  </div>
+</div>
+
 
 
 {/* countdown timer */}
@@ -146,7 +215,7 @@ function MobileProject() {
    
     </div>
   </div>
-</div>
+</div> 
 
 
 {/* resume builder */}
@@ -301,3 +370,11 @@ function MobileProject() {
 }
 
 export default MobileProject
+function setShowResumeDetails(arg0: boolean) {
+  throw new Error("Function not implemented.");
+}
+
+function setShowBlogDetails(arg0: boolean) {
+  throw new Error("Function not implemented.");
+}
+
