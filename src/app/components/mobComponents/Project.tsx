@@ -2,16 +2,16 @@ import Link from "next/link";
 import React, { useState } from "react";
 
 function MobileProject() {
-  const [showBlogDetails, setShowBlogDetails] = useState(false);
-  const [showResumeDetails, setShowResumeDetails] = useState(false);
+  // const [showBlogDetails, setShowBlogDetails] = useState(false);
+  // const [showResumeDetails, setShowResumeDetails] = useState(false);
   const [showAdminDetails, setShowAdminDetails] = useState(false);
   const [showEcommerceDetails, setShowEcommerceDetails] = useState(false);
   const [showAmazonCloneDetails, setShowAmazonCloneDetails] = useState(false);
   const [showFaceBookDetails, setShowFaceBookDetails] = useState(false);
 
   // Corrected toggle functions
-  const toggleBlogDetails = () => setShowBlogDetails((prev) => !prev);
-  const toggleResumeDetails = () => setShowResumeDetails((prev) => !prev);
+  // const toggleBlogDetails = () => setShowBlogDetails((prev) => !prev);
+  // const toggleResumeDetails = () => setShowResumeDetails((prev) => !prev);
   const toggleAdminDetails = () => setShowAdminDetails((prev) => !prev);
   const toggleEcommerceDetails = () => setShowEcommerceDetails((prev) => !prev);
   const toggleAmazonCloneDetails = () => setShowAmazonCloneDetails((prev) => !prev);
@@ -81,7 +81,7 @@ function MobileProject() {
       </div>
 
       {/* Blog website */}
-      <div className="container py-5 mx-auto flex flex-wrap">
+      {/* <div className="container py-5 mx-auto flex flex-wrap">
         <h2 className="sm:text-3xl text-2xl text-white font-medium title-font mb-2 md:w-2/5 uppercase">
           Blog Website
         </h2>
@@ -105,10 +105,10 @@ function MobileProject() {
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Resume Builder */}
-      <div className="container py-5 mx-auto flex flex-wrap">
+      {/* <div className="container py-5 mx-auto flex flex-wrap">
         <h2 className="sm:text-3xl text-2xl text-white font-medium title-font mb-2 md:w-2/5 uppercase">
           Resume Builder
         </h2>
@@ -132,7 +132,7 @@ function MobileProject() {
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Amazon Clone */}
       <div className="container py-5 mx-auto flex flex-wrap">
