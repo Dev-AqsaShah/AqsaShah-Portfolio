@@ -17,7 +17,6 @@ function MobileProject() {
   const toggleAmazonCloneDetails = () => setShowAmazonCloneDetails((prev) => !prev);
   const toggleFaceBookDetails = () => setShowFaceBookDetails((prev) => !prev);
 
-
   return (
     <div className="w-full p-5 bg-blue-950">
       <h4 className="scroll-m-20 border-b border-white pb-2 text-xl text-center font-semibold tracking-tight text-white">
@@ -134,67 +133,60 @@ function MobileProject() {
           </div>
         </div>
       </div>
- 
 
+      {/* Amazon Clone */}
+      <div className="container py-5 mx-auto flex flex-wrap">
+        <h2 className="sm:text-3xl text-2xl text-white font-medium title-font mb-2 md:w-2/5 uppercase">
+          Amazon Clone
+        </h2>
+        <div className="md:w-3/5 md:pl-6">
+          {showAmazonCloneDetails && (
+            <p className="leading-relaxed text-white">
+              I created an Amazon clone that replicates the core layout and functionality of the website, including key features like product listings, search, and a responsive design for a seamless user experience.
+            </p>
+          )}
+          <div className="flex md:mt-4 mt-6 gap-4">
+            <Link href="https://web-clone-coral.vercel.app/" target="_blank">
+              <button className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded">
+                View Live
+              </button>
+            </Link>
+            <button
+              onClick={toggleAmazonCloneDetails}
+              className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded"
+            >
+              {showAmazonCloneDetails ? "Hide Details" : "Details"}
+            </button>
+          </div>
+        </div>
+      </div>
 
-
-{/* Amazon Clone */}
-<div className="container py-5 mx-auto flex flex-wrap">
-  <h2 className="sm:text-3xl text-2xl text-white font-medium title-font mb-2 md:w-2/5 uppercase">
-    Amazon Clone
-  </h2>
-  <div className="md:w-3/5 md:pl-6"> {
-    showAmazonCloneDetails && (
-      <p className="leading-relaxed text-white">
-      I created an Amazon clone that replicates the core layout and functionality of the website, including key features like product listings, search, and a responsive design for a seamless user experience.
-    </p>
-    )
-  }
-   
-    <div className="flex md:mt-4 mt-6 gap-4">
-      <Link href="https://web-clone-coral.vercel.app/" target="_blank">
-        <button className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded">
-          View Live
-        </button>
-      </Link>
-      <button
-        onClick={toggleAmazonCloneDetails} // Toggle function for Amazon clone
-        className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded"
-      >
-        {showAmazonCloneDetails ? "Hide Details" : "Details"}
-      </button>
-    </div>
-  </div>
-</div>
-
-{/* Facebook Login Page Clone */}
-<div className="container py-10 mx-auto flex flex-wrap">
-  <h2 className="sm:text-3xl text-2xl text-white font-medium title-font mb-2 md:w-2/5 uppercase">
-    Facebook Clone
-  </h2>
-  <div className="md:w-3/5 md:pl-6"> {
-    showFaceBookDetails && (
-      <p className="leading-relaxed text-white">
-      I developed a Facebook login page clone using Next.js and Tailwind CSS, ensuring a seamless, responsive design with modern web technologies for an optimal user experience.
-    </p>
-    )
-  }
-    <div className="flex md:mt-4 mt-6 gap-4">
-      <Link href="https://next-js-projects-lemon.vercel.app/" target="_blank">
-        <button className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded">
-          View Live
-        </button>
-      </Link>
-      <button
-        onClick={toggleFaceBookDetails} 
-        className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded"
-      >
-        {showFaceBookDetails ? "Hide Details" : "Details"}
-      </button>
-    </div>
-  </div>
-</div>
-
+      {/* Facebook Login Page Clone */}
+      <div className="container py-10 mx-auto flex flex-wrap">
+        <h2 className="sm:text-3xl text-2xl text-white font-medium title-font mb-2 md:w-2/5 uppercase">
+          Facebook Clone
+        </h2>
+        <div className="md:w-3/5 md:pl-6">
+          {showFaceBookDetails && (
+            <p className="leading-relaxed text-white">
+              I built a clone of the Facebook login page using React. This project showcases my ability to replicate a popular web page design and functionality. It includes a responsive form for login.
+            </p>
+          )}
+          <div className="flex md:mt-4 mt-6 gap-4">
+            <Link href="https://login-page-clone-5rr.vercel.app/" target="_blank">
+              <button className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded">
+                View Live
+              </button>
+            </Link>
+            <button
+              onClick={toggleFaceBookDetails}
+              className="inline-flex text-black font-semibold bg-white border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded"
+            >
+              {showFaceBookDetails ? "Hide Details" : "Details"}
+            </button>
+          </div>
+        </div>
+      </div>
 
 
 {/* countdown timer */}
